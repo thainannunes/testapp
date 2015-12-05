@@ -1,0 +1,484 @@
+
+
+/** style sheet
+author: thainan Nunes da Silva
+
+**/
+
+/* iPhone 5 ----------- */
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    body {
+          background-image: url('../img/peguei.png'); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 250%;
+    }
+    #tudo{
+
+    /*opacity:0.3;*/
+ width: 100%;
+       height:640px;
+}
+    
+    .btn-login{
+        width:100%;
+    color: #fff;
+    background-color: #EF5350;
+    border-color: #F44336;        
+
+}
+.btn-login:hover {
+    color: #fff;
+    background-color: #d15f5e;
+    border-color: #E07168;  
+
+}
+.btn-login:active    {
+    color: #fff;
+    background-color: #805555;
+    border-color: #E07168;      
+
+}
+.btn-login:focus{
+    color: #fff;
+    background-color: #e04643;
+    border-color: #F44336;        
+
+}
+    
+    
+    .btn-registra{
+        width:100%;
+        margin-top:3%;
+}
+    
+    
+  
+    .faceloginbutton{
+    width:100%;
+    /* padding: 5px 25% 5px 25%; */
+    color: white;
+    background-color: #5372B3;
+    border-radius: 2px;
+    border: 1px solid #35476B;
+}
+    
+    
+    #topo_app{
+        box-shadow: 0px 0px 16px -2px gray;
+        margin-bottom: 5%;
+        height: 72px;
+        padding: 2%;
+        background-color: white;
+    }
+    
+    .welcome{
+        display:none;
+    }
+    
+    
+    
+    
+    
+    
+    .welcome_name{
+        width: 50%;
+    display: inline;
+            font-size: 149%;
+    }
+    #perfilimg{
+     display: inline-block;   
+    }
+    .admlink{
+        display: inline;
+    }
+    .app-logout{
+        float: right;
+        display: inline;
+    }
+    .faceuserimg{
+        border-radius: 50%;
+    }
+    
+    .labelform {
+        display:none;
+    }
+    
+    
+    
+    #loginform{
+        padding-top:200px;
+        margin:3%;
+        }
+    
+    #loginform h2{
+        width:30%;
+        display: inline-block;
+    }
+    #loading{
+        display: inline;
+    }
+    #email{
+        height:50px;
+    }
+    #pass{
+        height:50px;
+    }
+    
+    
+#principal-contet h1{
+    font-size: 100px;
+    color: #ef5350;
+    font-family: 'Lobster', cursive;
+    width:180%;
+    text-align: center;
+}
+    #principal-contet p{
+        display:none;
+    }  
+#universal-box h3{
+    text-align: center;
+    margin:2px;
+    font-family: 'Pacifico', cursive;  
+    width:180%;
+}
+    
+    *{
+    margin:0;
+    padding:0;
+    
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    background-color: #F7F7F7;
+
+}
+    
+ #principal-contet h1{
+    font-family: 'Lobster', cursive;
+}
+
+#principal-contet{
+    text-shadow: 1px 1px 1px white;
+    width: 55%;
+    float: left;
+    
+}
+   
+} /*celular 320 fim */
+
+@media screen and (min-width: 992px) {
+        #principal-contet p{
+        display:inherit;
+    }  
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    background-color: #F7F7F7;
+
+}
+
+   #tudo{
+    background-image: url('../img/peguei.png');
+    /*opacity:0.3;*/
+ width: 100%;
+height:1024px;
+    }
+
+/**top header**/
+
+#topo{
+    padding:5px;
+    height:55px;
+    color:#125688;
+    width: 100%;
+}
+#topo a{
+    margin-top:10px;
+    color:#125688;  
+    text-decoration: none;
+}
+
+#center_info{
+    width:60%;
+    margin:0 auto;
+    margin-top:10%;
+    padding:2%;
+    border:1px solid #E4E4E4;
+    background-color: white; 
+}
+
+#center_info a{
+    color:#125688;
+    text-decoration: none;
+}
+
+#center_info h1{
+    border-bottom: 1px solid black;
+    
+}
+
+
+
+
+/**footer**/
+
+#footer{
+
+  position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;
+    
+
+    
+    
+}
+.copyright{
+  float: right;
+    width: 155px;
+    
+}
+
+#universal-box{
+    width:80%;
+    margin:0 auto;
+    margin-top:10%;
+    padding: 0px 20px 20px 20px;
+}
+#universal-box a{
+
+    text-decoration: none;
+}
+
+#universal-box h1{
+    color: #ef5350;
+    font-size: 65px;
+     margin-left:0;
+    font-family: 'Lobster', cursive;
+    border-bottom: 1px solid black;
+    
+}
+#universal-box h3{
+        text-align: justify;
+    width:100%;
+    font-family: 'Pacifico', cursive;
+}
+.user-login-left{
+    margin-top: 15px;
+}
+.adm-login-right{
+    float: right;
+}
+
+
+#principal_box{
+    width:15%;
+    
+    
+    
+}
+#principal-contet h1{
+    font-family: 'Lobster', cursive;
+}
+
+#principal-contet{
+    text-shadow: 1px 1px 1px white;
+    width: 55%;
+    float: left;
+    
+}
+
+#loginform{
+    box-shadow: 0px 0px 10px 0px #E4E4E4;
+    width: 30%;
+    margin-right: 25px;
+    float: right;
+    padding: 0px 20px 20px 20px;
+   
+}
+#loginform h2{
+        display: inline-block;
+    float: left;
+    clear: both;
+    margin-bottom: 1px;
+    
+    
+}
+
+.universal-box-color{
+
+    border:1px solid #E4E4E4;
+    background-color: white; 
+}
+
+.faceuserimg{
+    float:left;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px gray;
+    border: 2px solid white;
+}
+.app-logout{
+    float:right;
+    
+}
+.welcome_name{
+    display: inline-block;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+#topo_app{
+    box-shadow: 0px -9px 10px 6px gray;
+    padding: 5px;
+    height: 66px;
+    color: #125688;
+    width: 100%;
+    border-bottom: 1px solid #D8D8D8;
+    background-color: white;
+}
+.admlink{
+    display: inline-block;
+    width:150px;
+}
+
+.faceloginbutton{
+    width:100%;
+    /* padding: 5px 25% 5px 25%; */
+    color: white;
+    background-color: #5372B3;
+    border-radius: 2px;
+    border: 1px solid #35476B;
+}
+#loginformself{
+    margin-top:65px;    
+    
+}
+.btn-login{
+    width:50%;
+    color: #fff;
+    background-color: #EF5350;
+    border-color: #F44336;        
+
+}
+.btn-login:hover {
+    color: #fff;
+    background-color: #d15f5e;
+    border-color: #E07168;  
+
+}
+.btn-login:active    {
+    color: #fff;
+    background-color: #805555;
+    border-color: #E07168;      
+
+}
+.btn-login:focus{
+    color: #fff;
+    background-color: #e04643;
+    border-color: #F44336;        
+
+}
+#loading{
+    float: right;
+    display: inline-block;
+    margin-top: 19px;
+    margin-right: 10;
+}
+.btn-registra{
+        width:47%;
+}
+#contentloader{
+ 
+    display: inline-block;
+    width: 69.8%;
+    margin: 50px 15% 0 15%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0 10px 1px #ddd;
+    height: 100%;
+}
+
+
+
+.contenth3header{
+    margin:0;
+    float: left;
+}
+
+
+
+#listas{
+    width:25%;
+    float:left;
+    height: 100%;
+    
+}
+
+
+#content-list{
+    border-radius: 0 5px 5px 0;
+    border-left: 1px solid #C7C7C7;
+    width:75%;
+    height: 100%;
+    float:right;
+    background-color: #F7F7F7;
+}
+#content-list-header{
+    height: 39px;
+    border-radius: 0 5px 0 0;
+    padding: 7px;
+    background-color: #EAEAEA;
+    margin: 0;
+}
+#listas-header{
+    height: 39px;
+    border-radius: 5px 0 0 0;
+    padding: 7px;
+    background-color: #F7F7F7;
+    margin: 0;
+    
+}
+
+#lists_contents{
+    padding: 10px 1px 10px 7px;
+    
+}
+
+#lists_names{
+    padding: 10px 0 10px 0;
+    
+    
+}
+
+#lists_names a{
+    color:#737373;
+    border: 1px solid white;
+    width: 100%;
+    display: -webkit-inline-box;
+    padding: 5px 2px 5px 5px;
+    text-decoration: none;
+    font-size: initial;
+    
+    
+}
+
+#lists_names a:hover{
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+
+}  
+    
+    
+    
+}
+
+
